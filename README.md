@@ -1,2 +1,2 @@
-# -Cadence-RTL-to-GDSII-Flow
-In this tutorial, you learn how to implement a design from RTL-to-GDSII using Cadence® tools. 
+# Cadence-RTL-to-GDSII-Flow
+In this tutorial, you learn how to implement a design from RTL-to-GDSII using Cadence® tools. You will start by coding a design in Verilog. You will simulate the coded design, followed by design synthesis and optimization. You will then run equivalency checks at different stages of the flow. After synthesizing the design, you will floorplan, and place-and-route the synthesized netlist while meeting timing. You will run a gate-level simulation throughout the flow. Finally, you will write out a GDSII file
