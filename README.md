@@ -57,5 +57,16 @@ irun counter.v counter_test.v -access +rwc -gui &
 
 `-gui` invokes the graphical mode of the NCSim tool
 
+# Acknowledgements
+
+Nothing is done in isolation. I would like to thank Dr. Hesham Omran and Eng. Islam Samir for having made important contribution to this work.
+
+I am very grateful to my family for always being supportive of me. My parents, and my friends have been the shining light of my life.
+
+I was inspired by late Prof. Adam Teman, who taught a very different course on RTL2GDS at Bar-Ilan University. His design-oriented analysis approach seemed like the right mindset.
+
 # Reference
 1. [Digital VLSI Design (RTL to GDS)](https://youtube.com/playlist?list=PLZU5hLL_713x0_AV_rVbay0pWmED7992G)
+2. [Digital IC Design (1)](https://youtube.com/playlist?list=PLMSBalys69yzvAKErDt7tT7O-iIKPlOCP)
+3. [Digital IC Design (2)](https://youtube.com/playlist?list=PLMSBalys69yxoIjeZ2Q3fxs69cGCU14B1)
+4. [Digital IC Design (3)](https://youtube.com/playlist?list=PLMSBalys69yw1tSoF42QW9jbbC0-UeCAy)
