@@ -38,6 +38,24 @@ tool-generated files do not get mixed up.
   - clk
 - The counter should have the following output:
   - count (7:0) 
+# Simulating a Simple Counter Design
+This lab uses the following software:
+ - Incisive 15.2
+
+Go to the “simulation” directory:
+`````````````
+cd simulation
+``````````````
+You will see two files here: `counter.v`, which is the design itself, and `counter_test.v`, which is the testbench, both written in Verilog.
+
+Execute the following command:
+
+`````````````````````````````````
+irun counter.v counter_test.v -access +rwc -gui &
+`````````````````````````````````
+`-access` `+rwc` provides probing access to all the signals in the design hierarchy.
+
+`-gui` invokes the graphical mode of the NCSim tool
 
 # Reference
 1. [Digital VLSI Design (RTL to GDS)](https://youtube.com/playlist?list=PLZU5hLL_713x0_AV_rVbay0pWmED7992G)
