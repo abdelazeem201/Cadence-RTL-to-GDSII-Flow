@@ -58,22 +58,99 @@ irun counter.v counter_test.v -access +rwc -gui &
 `-gui` invokes the graphical mode of the NCSim tool
 
 # Synthesis Stage
+The tool used for synthesis (converting RTL to a gate-level netlist) is Genus™ Synthesis Solution (Genus) in Stylus Common UI mode
+
 This lab uses the following software:
  - GENUS 17.1
- 
+
+1. Change to the synthesis directory by entering the following command:
+
+````````````
+cd Synthesis
+````````````
+
+2. Start the software in Stylus Common UI mode by entering:
+
+````` 
+genus
+``````
+
+Use the following command to invoke Genus along with the script file:
+
+```````````````````````````````````
+genus –f synthesis.tcl
+```````````````````````````````````
+
 # Equivalency Checking Stage
+The tool used for equivalence checking (comparing RTL to gate-level netlist) is the Conformal®
+Logic Equivalence Checker (LEC).
+
+Conformal LEC is a tool used for formal verification of designs at various stages in the flow. Formal
+verification is the process of verifying designs using mathematical methods. Equivalence Checking
+is the process of verifying the correctness of a modified or transformed design (revised design) by
+comparing it with a reference design (golden design).
+
 This lab uses the following software:
  - CONFRML 17.1
 
+Change the directory to Equivalence_checking.
+
+````````````
+cd Equivalence_Checking
+````````````
+
+Invoke Conformal LEC inside the Equivalence_checking directory in non-GUI by using the
+command:
+
+`````````````````````````
+lec -XL -nogui -color -64 -dofile counter.do
+`````````````````````````
+- `-XL`: Launches Conformal L with Datapath and advanced equivalence checking capabilities.
+- `-nogui`: Starts the session in non-GUI mode.
+- `-color`: Turns on color-coded messaging when in non-GUI mode.
+- `-64`: Runs the Conformal software in 64-bit mode.
+- `-dofile` <`counter.do`>: Runs the script <`counter.do`> after starting LEC.
+
 # Implementation Stage
+In this lab, you will use the Innovus™ Implementation System to implement the floorplanning, placement, routing, etc., for this design. At the end of the lab, you will also verify your results before handing them off for signoff.
+
 This lab uses the following software:
  - INNOVUS 17.1
+ 
+1. Change to the working directory where you will run floorplanning by entering:
+
+````````````````````
+cd PnR
+````````````````````
+2. Start the Innovus Implementation System by entering:
+
+````````````````````
+innovus -stylus
+````````````````````
 
 # Gate-Level Simulation Stage
 This lab uses the following software:
  - Incisive 15.2
 
+1. Change to the working directory:
+``````````````````````
+cd GLS
+```````````````````````
+
+2. Execute the following xrun command:
+`````````````````````````````````````````````````````````````````````
+irun -timescale 1ns/10ps counter_netlist.v counter_test.v -v slow_vdd1v0_basicCells.v -access +rwc -define SDF_TEST -mess –gui
+`````````````````````````````````````````````````````````````````````
+- `-timescale`: To mention the time unit and time precision.
+- `-access`: Passed to the elaborator to provide read access to simulation objects.
+- `-gui`: To invoke the xrun in gui mode.
+- `-mess`: To display all the messages in detail.
+- `-define`: To provide SDF definition present in the testbench.
+- `-v`: To provide library in “.v” format.
+
 # Timing Analysis and Debug Stage
+Tempus™ Timing Signoff Solution is a timing signoff tool used to verify that the design meets your timing goals. In this lab, you will first rerun the previous session of Place & Route and continue it with running Tempus timing analysis inside of Innovus™
+
 This lab uses the following software:
  - INNOVUS 17.1
 
