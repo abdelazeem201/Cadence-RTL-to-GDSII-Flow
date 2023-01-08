@@ -58,5 +58,8 @@ irun counter.v counter_test.v –access +rwc
 </p>
 
 The command creates the file incisive.d as well as the log files in the directory of invocation.
+<p align="center">
+<img width="460" height="300" src="https://github.com/abdelazeem201/Cadence-RTL-to-GDSII-Flow/blob/main/Documentation/Pics/log.png">
+</p>
 
 # <div align="center"> End of Lab.</div> 
