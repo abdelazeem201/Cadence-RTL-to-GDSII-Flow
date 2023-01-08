@@ -28,9 +28,9 @@ xrun counter.v counter_test.v -access +rwc -gui &
 `-access` `+rwc` provides probing access to all the signals in the design hierarchy.
 
 `-gui` invokes the graphical mode of the NCSim tool in the following way:
-
-![NCSim](https://user-images.githubusercontent.com/58098260/211216053-07f19835-a3b4-4967-a13e-c058fdd73f10.png)
-
+<p align="center">
+<img width="460" height="300" src="https://user-images.githubusercontent.com/58098260/211217024-2dc2a8fc-c020-43d1-9ffb-fbf68820474c.png/460/300">
+</p>
 2. It opens the SimVision™ tool with the windows, as shown below.
 3. Click on the waveform icon on the Design Browser window after selecting the signals from the design hierarchy, and you can see the waveform as below with the simulation running, with selected signals in the window.
 
