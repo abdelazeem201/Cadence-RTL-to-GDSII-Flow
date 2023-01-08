@@ -43,6 +43,7 @@ xrun counter.v counter_test.v -access +rwc -gui &
 # Using irun in Batch Mode
 
 1. Go to the simulation directory:
+
 ```````````
  cd simulation
 ```````````
@@ -50,14 +51,17 @@ xrun counter.v counter_test.v -access +rwc -gui &
 <img width="460" height="300" src="https://github.com/abdelazeem201/Cadence-RTL-to-GDSII-Flow/blob/main/Documentation/Pics/Shell.png">
 </p>
 2. Execute the following command:
+
 ```````````````````
 irun counter.v counter_test.v –access +rwc
 ````````````````````
+
 <p align="center">
 <img width="460" height="300" src="https://github.com/abdelazeem201/Cadence-RTL-to-GDSII-Flow/blob/main/Documentation/Pics/results.png">
 </p>
 
 The command creates the file incisive.d as well as the log files in the directory of invocation.
+
 <p align="center">
 <img width="460" height="300" src="https://github.com/abdelazeem201/Cadence-RTL-to-GDSII-Flow/blob/main/Documentation/Pics/log.png">
 </p>
