@@ -57,6 +57,26 @@ irun counter.v counter_test.v -access +rwc -gui &
 
 `-gui` invokes the graphical mode of the NCSim tool
 
+# Synthesis Stage
+This lab uses the following software:
+ - GENUS 17.1
+ 
+# Equivalency Checking Stage
+This lab uses the following software:
+ - CONFRML 17.1
+
+# Implementation Stage
+This lab uses the following software:
+ - INNOVUS 17.1
+
+# Gate-Level Simulation Stage
+This lab uses the following software:
+ - Incisive 15.2
+
+# Timing Analysis and Debug Stage
+This lab uses the following software:
+ - INNOVUS 17.1
+
 # Acknowledgements
 
 Nothing is done in isolation. I would like to thank Dr. Hesham Omran and Eng. Islam Samir for having made important contribution to this work.
@@ -70,3 +90,5 @@ I was inspired by late Prof. Adam Teman, who taught a very different course on R
 2. [Digital IC Design (1)](https://youtube.com/playlist?list=PLMSBalys69yzvAKErDt7tT7O-iIKPlOCP)
 3. [Digital IC Design (2)](https://youtube.com/playlist?list=PLMSBalys69yxoIjeZ2Q3fxs69cGCU14B1)
 4. [Digital IC Design (3)](https://youtube.com/playlist?list=PLMSBalys69yw1tSoF42QW9jbbC0-UeCAy)
+5. Cadence Documentation
+6. Ron Rutenbar “From Logic to Layout”
