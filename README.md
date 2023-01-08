@@ -26,3 +26,18 @@ tool-generated files do not get mixed up.
 
 2. During your run, save your modified design files inside the same directory where you run those tools.
 
+# Counter Design
+- The binary counter is an example of a simple synchronous digital circuit. It has no data inputs and no combinational output logic circuit.
+
+- At each clock pulse, the counter takes up a new state and thus goes through a specific count sequence.
+
+- We shall now write a design spec for 8bit up-counter with two outputs which go through the following sequence:
+![Figure 1: 8bit-counter-block-diagram](https://user-images.githubusercontent.com/58098260/211213632-3d9db520-15c2-420e-b431-50486b6da349.png)
+- The counter should have the following inputs:
+  - rst, which is synchronous, active low
+  - clk
+- The counter should have the following output:
+  - count (7:0) 
+
+# Reference
+1. [Digital VLSI Design (RTL to GDS)](https://youtube.com/playlist?list=PLZU5hLL_713x0_AV_rVbay0pWmED7992G)
