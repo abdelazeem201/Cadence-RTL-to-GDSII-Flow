@@ -4,6 +4,9 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
+<div align="center"> بِسْمِ اللهِ الرَّحْمنِ الرَّحِيم</div>
+
+<div align="center"> “وَمَا أُوتِيتُمْ مِنَ الْعِلْمِ إِلَّا قَلِيلًا”</div>
 
 # Abstract
 This tutorial teaches how to implement a design idea from RTL-to-GDSII flow using Cadence® tools. You will learn how to deal with these challenges while running the flow, such as resolving errors in the log file, debugging the timing violations, and fixing setup and hold violations. After completing the lecture, you can download a lab database and manual to test your knowledge at every stage.
