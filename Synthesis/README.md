@@ -1,7 +1,7 @@
 The tool used for synthesis (converting RTL to a gate-level netlist) is Genus™ Synthesis Solution (Genus) in Stylus Common UI mode.
 
 This lab uses the following software release:
-  - GENUS211 (21.10-p002)
+  - GENUS17.2 (21.10-p002)
 
 # Running Synthesis (Without DFT)
 
