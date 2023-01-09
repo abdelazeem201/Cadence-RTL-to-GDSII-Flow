@@ -168,7 +168,7 @@ When the synthesis is complete, run the following steps to use the graphical int
 
 1. View or unhide the graphical interface:
 
-`gui_show`
+  `gui_show`
 
 <p align="center">
 <img width="460" height="300" src="https://user-images.githubusercontent.com/58098260/211409877-49f31c72-cfcb-4e2b-854f-778010a900b6.png">
@@ -181,7 +181,7 @@ When the synthesis is complete, run the following steps to use the graphical int
 
 3. To close the GUI, enter the following command:
 
-`gui_hide`
+  `gui_hide`
 
 # Generating Reports
 
