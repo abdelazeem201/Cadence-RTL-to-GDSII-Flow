@@ -1,10 +1,10 @@
-xrun -clean
-rm -rf xrun.log
-rm -rf xrun.history
-rm -rf xmls.log
-rm -rf xmelab.args
-rm -rf xmsim.args
-rm -rf xmvlog_ver.args
+irun -clean
+rm -rf irun.log
+rm -rf irun.history
+rm -rf imls.log
+rm -rf imelab.args
+rm -rf imsim.args
+rm -rf imvlog_ver.args
 rm -rf cds.lib
 rm -rf hdl.var
 rm -rf waves.shm
