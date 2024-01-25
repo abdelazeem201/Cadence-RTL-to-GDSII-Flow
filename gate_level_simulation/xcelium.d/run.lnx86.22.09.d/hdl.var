@@ -1,0 +1,9 @@
+define XMSIMRC	( /grid/avs/install/xcelium/2209/22.09.001/tools/xcelium/files/xmsimrc, ~/.xmsimrc )
+define AMSRC	( /grid/avs/install/xcelium/2209/22.09.001/tools/xcelium/files/amsrc, ~/.amsrc )
+include ./hdlrun.var
+include ./xllibs/hdl.var
+define SNAPSHOT worklib.counter_test:v
+DEFINE RUNMODEDEFAULT 1
+DEFINE LIB_MAP ($LIB_MAP, + => worklib )
+define ELAB_SNAPSHOT
+define SNAPSHOT worklib.counter_test:v

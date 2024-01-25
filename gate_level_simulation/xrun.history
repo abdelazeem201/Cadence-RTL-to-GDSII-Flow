@@ -1,0 +1,1 @@
+s1(21Apr2023:23:58:13):  xrun -timescale 1ns/10ps counter_netlist.v counter_test.v -v slow_vdd1v0_basicCells.v -access +rwc -define SDF_TEST -mess -gui 

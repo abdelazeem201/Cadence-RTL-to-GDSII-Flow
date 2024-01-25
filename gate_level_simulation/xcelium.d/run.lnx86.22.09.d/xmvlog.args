@@ -1,0 +1,23 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-XLMODE
+./xcelium.d/run.lnx86.22.09.d
+-RUNMODE
+counter_netlist.v
+counter_test.v
+-VFILE
+slow_vdd1v0_basicCells.v
+-DEFINE
+SDF_TEST
+-CDSLIB
+./xcelium.d/run.lnx86.22.09.d/cdsrun.lib
+-HDLVAR
+./xcelium.d/run.lnx86.22.09.d/hdlrun.var
+-no_analogsolver
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./xcelium.d/run.lnx86.22.09.d/xllibs
+-ALLOWUNBOUND

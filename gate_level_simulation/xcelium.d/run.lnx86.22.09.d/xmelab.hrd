@@ -1,0 +1,8 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-timescale
+1ns/10ps
+-ACCESS
++rwc

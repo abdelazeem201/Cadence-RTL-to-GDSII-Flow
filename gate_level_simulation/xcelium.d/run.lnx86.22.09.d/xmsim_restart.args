@@ -1,0 +1,24 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-gui
+-MESSAGES
++EMGRLOG
+xrun.log
+-XLSTIME
+1682146692
+-XLKEEP
+-XLMODE
+./xcelium.d/run.lnx86.22.09.d
+-RUNMODE
+-CDSLIB
+./xcelium.d/run.lnx86.22.09.d/cds.lib
+-HDLVAR
+./xcelium.d/run.lnx86.22.09.d/hdl.var
+-XLNAME
+xrun
+-XLVERSION
+"TOOL:	xrun	22.09-s001"
+-XLNAME
+./xcelium.d/run.lnx86.22.09.d/sjcvl-pamulasa_8469
