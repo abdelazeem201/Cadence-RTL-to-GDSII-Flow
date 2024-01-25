@@ -1,0 +1,26 @@
+VERSION 5.5 ;
+NAMESCASESENSITIVE ON ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN counter ;
+
+SCANCHAINS 1 ;
+  - top_chain_seg1_clk_rising 
+    + PARTITION p_clk_rising 
+      MAXBITS 8
+    + START PIN scan_in
+    + FLOATING 
+       count_reg[0] ( IN SI ) ( OUT Q ) 
+       count_reg[1] ( IN SI ) ( OUT Q ) 
+       count_reg[2] ( IN SI ) ( OUT Q ) 
+       count_reg[3] ( IN SI ) ( OUT Q ) 
+       count_reg[4] ( IN SI ) ( OUT Q ) 
+       count_reg[5] ( IN SI ) ( OUT Q ) 
+       count_reg[6] ( IN SI ) ( OUT Q ) 
+       count_reg[7] ( IN SI ) ( OUT Q ) 
+    + STOP PIN scan_out
+;
+
+END SCANCHAINS 
+END DESIGN 
+
