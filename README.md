@@ -51,7 +51,7 @@ The following is the directory structure of the counter design mini-project
 |Equivalence Checking|Run Conformal equivalence checking here|
 |GLS|Run Incisive gate-level simulation here|
 |Constraints|Constraints – Contains the SDC file|
-|PnR|Run Innovus implementation here|
+|physical_design|Run Innovus implementation here|
 |STA|Run Tempus timing analysis here|
 |LIB|Contains lib files|
 |LEF|Contains lef files|
